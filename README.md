@@ -3,7 +3,7 @@
 NOTE: Please test these profiles before putting them on a production ISE environment. These profiles are not officially endorsed or provided by Cisco in any way. 
 
 These profiles should change the structure, fidelity, and granulary of Apple devices profiled by ISE. In order to use these profiles efficiently, please disable the following built-in Cisco-provided profile policies in ISE: 
-Apple-iPad
+<br> Apple-iPad
 Apple-iPhone
 Apple-Ipod
 Apple-Macbook
