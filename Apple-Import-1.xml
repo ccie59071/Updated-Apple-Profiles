@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><CPMProfilerPolicies>
+<Policies>
+<Policy description="Generic policy for all Apple devices" isEnabled="true" matchingIdentityGroup="false" minimumCertaintyMetric="10" name="Apple-Device" scanActionName="OS-scan" version="2">
+<PolicyRules>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRule22"/>
+<PolicyRule certaintyFactor="5" name="Apple-DeviceRule35e0a0d1-4123-4ae2-9796-0523207cb633"/>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRule4cead16a-023e-4c88-bbf1-819ce7db1be0"/>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRule1"/>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRuleda29dbed-4891-45a7-b41a-bd901c62c4fd"/>
+<PolicyRule certaintyFactor="5" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46"/>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRulec800dafa-1ad2-49c4-93e5-b0497ebdca88"/>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRule98a7ae9a-dfd3-465c-aef2-dbdede86c2a3"/>
+<PolicyRule certaintyFactor="10" name="Apple-DeviceRule653d1494-cdf1-4b04-b1c3-a831ca5674dc"/>
+<PolicyRule certaintyFactor="-3" name="Apple-DeviceRule1_NMAP"/>
+<PolicyRule certaintyFactor="5" name="Apple-DeviceRule8d1992b1-c2a8-4aa2-9107-2c396347506a"/>
+</PolicyRules>
+</Policy>
+</Policies>
+<Rules>
+<Rule description="Apple-Device-Rule2-Check1" expression="Apple-Device-Rule2-Check1" name="Apple-DeviceRule22" ruleType="Regular"/>
+<Rule description="DHCP_dhcp-parameter-request-list_EQUALS_1,_121,_3,_6,_15,_119,_252" expression="Apple-DeviceRule35e0a0d1-4123-4ae2-9796-0523207cb633Check72f5a889-7cc6-48d6-b9a8-6de839456d8a" name="Apple-DeviceRule35e0a0d1-4123-4ae2-9796-0523207cb633" ruleType="Regular"/>
+<Rule description="IP_User-Agent_CONTAINS_MAC_OSX" expression="Apple-DeviceRule4cead16a-023e-4c88-bbf1-819ce7db1be0Check0f6a7f7f-05d8-475a-9bee-f8aed260563e" name="Apple-DeviceRule4cead16a-023e-4c88-bbf1-819ce7db1be0" ruleType="Regular"/>
+<Rule description="Apple-DeviceRule1Check1" expression="Apple-DeviceRule1Check1" name="Apple-DeviceRule1" ruleType="Regular"/>
+<Rule description="ACTIVEDIRECTORY_PROBE_AD-Operating-System_CONTAINS_Mac_OS" expression="Apple-DeviceRuleda29dbed-4891-45a7-b41a-bd901c62c4fdCheck3a29dce4-75ec-45d1-b390-504a94c6140c" name="Apple-DeviceRuleda29dbed-4891-45a7-b41a-bd901c62c4fd" ruleType="Regular"/>
+<Rule description="DHCP_host-name_CONTAINS_mbp_OR_DHCP_host-name_CONTAINS_macbook_OR_DHCP_host-name_CONTAINS_iphone_OR_DHCP_host-name_CONTAINS_ipad_OR_DHCP_host-name_CONTAINS_air_OR_DHCP_host-name_CONTAINS_ipod_OR_DHCP_host-name_CONTAINS_imac" expression="(((((Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check3ac7192c-a8c7-4e42-b3ca-e16332ae8e4d | Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check61f43aab-aaf3-46f6-bbac-89cbaa9f81e7) | Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check8644a7ca-3152-453e-ab79-06954d06be0d) | Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Checkd3dfc3cf-cd9a-4657-a9e4-285127e57c87) | Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check24bca4fe-aaae-4fde-bd36-8c1d0c6a14bb) | Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Checkbae95604-561b-4bc6-803a-14459a98d9ff) | Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check3bdfa277-6fdf-45e7-aaa1-9083e0b23e9f" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46" ruleType="Regular"/>
+<Rule description="ACIDEX_device-type_CONTAINS_Macbook" expression="Apple-DeviceRulec800dafa-1ad2-49c4-93e5-b0497ebdca88Checkec936931-d025-439d-bb02-2d0a6533a315" name="Apple-DeviceRulec800dafa-1ad2-49c4-93e5-b0497ebdca88" ruleType="Regular"/>
+<Rule description="IP_User-Agent_CONTAINS_Mac_OS" expression="Apple-DeviceRule98a7ae9a-dfd3-465c-aef2-dbdede86c2a3Check10bcd3ad-2724-456f-b304-bde523a5980d" name="Apple-DeviceRule98a7ae9a-dfd3-465c-aef2-dbdede86c2a3" ruleType="Regular"/>
+<Rule description="IP_User-Agent_CONTAINS_Macintosh" expression="Apple-DeviceRule653d1494-cdf1-4b04-b1c3-a831ca5674dcCheck2bd3f451-4247-4269-82d5-af4f773736ef" name="Apple-DeviceRule653d1494-cdf1-4b04-b1c3-a831ca5674dc" ruleType="Regular"/>
+<Rule description="Apple-DeviceRule1-SCAN" expression="Apple-DeviceRule1Check1" name="Apple-DeviceRule1_NMAP" ruleType="Regular"/>
+<Rule description="DHCP_dhcp-parameter-request-list_EQUALS_1,_121,_3,_6,_15,_119,_252,_95,_44,_46" expression="Apple-DeviceRule8d1992b1-c2a8-4aa2-9107-2c396347506aCheck623e2e13-dfc9-491c-b609-e3954ec0bc47" name="Apple-DeviceRule8d1992b1-c2a8-4aa2-9107-2c396347506a" ruleType="Regular"/>
+</Rules>
+<Checks>
+<Check attributeName="device-platform" attributeValue="apple-ios" description="Condition for Apple-Device based on ACIDEX:device-platform" name="Apple-Device-Rule2-Check1" operator="Equals" type="ACIDEX"/>
+<Check attributeName="dhcp-parameter-request-list" attributeValue="1, 121, 3, 6, 15, 119, 252" description="DHCP dhcp-parameter-request-list EQUALS 1, 121, 3, 6, 15, 119, 252" name="Apple-DeviceRule35e0a0d1-4123-4ae2-9796-0523207cb633Check72f5a889-7cc6-48d6-b9a8-6de839456d8a" operator="Equals" type="DHCP"/>
+<Check attributeName="User-Agent" attributeValue="MAC_OSX" description="IP User-Agent CONTAINS MAC_OSX" name="Apple-DeviceRule4cead16a-023e-4c88-bbf1-819ce7db1be0Check0f6a7f7f-05d8-475a-9bee-f8aed260563e" operator="Contains" type="IP"/>
+<Check attributeName="OUI" attributeValue="Apple" description="Apple-DeviceRule1Check1" name="Apple-DeviceRule1Check1" operator="Contains" type="Mac"/>
+<Check attributeName="AD-Operating-System" attributeValue="Mac OS" description="ACTIVEDIRECTORY_PROBE AD-Operating-System CONTAINS Mac OS" name="Apple-DeviceRuleda29dbed-4891-45a7-b41a-bd901c62c4fdCheck3a29dce4-75ec-45d1-b390-504a94c6140c" operator="Contains" type="ACTIVEDIRECTORY_PROBE"/>
+<Check attributeName="host-name" attributeValue="mbp" description="DHCP host-name CONTAINS mbp" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check3ac7192c-a8c7-4e42-b3ca-e16332ae8e4d" operator="Contains" type="DHCP"/>
+<Check attributeName="host-name" attributeValue="macbook" description="DHCP host-name CONTAINS macbook" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check61f43aab-aaf3-46f6-bbac-89cbaa9f81e7" operator="Contains" type="DHCP"/>
+<Check attributeName="host-name" attributeValue="iphone" description="DHCP host-name CONTAINS iphone" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check8644a7ca-3152-453e-ab79-06954d06be0d" operator="Contains" type="DHCP"/>
+<Check attributeName="host-name" attributeValue="ipad" description="DHCP host-name CONTAINS ipad" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Checkd3dfc3cf-cd9a-4657-a9e4-285127e57c87" operator="Contains" type="DHCP"/>
+<Check attributeName="host-name" attributeValue="air" description="DHCP host-name CONTAINS air" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check24bca4fe-aaae-4fde-bd36-8c1d0c6a14bb" operator="Contains" type="DHCP"/>
+<Check attributeName="host-name" attributeValue="ipod" description="DHCP host-name CONTAINS ipod" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Checkbae95604-561b-4bc6-803a-14459a98d9ff" operator="Contains" type="DHCP"/>
+<Check attributeName="host-name" attributeValue="imac" description="DHCP host-name CONTAINS imac" name="Apple-DeviceRuled37b86b3-c053-4545-a6d3-0a2872637e46Check3bdfa277-6fdf-45e7-aaa1-9083e0b23e9f" operator="Contains" type="DHCP"/>
+<Check attributeName="device-type" attributeValue="Macbook" description="ACIDEX device-type CONTAINS Macbook" name="Apple-DeviceRulec800dafa-1ad2-49c4-93e5-b0497ebdca88Checkec936931-d025-439d-bb02-2d0a6533a315" operator="Contains" type="ACIDEX"/>
+<Check attributeName="User-Agent" attributeValue="Mac OS" description="IP User-Agent CONTAINS Mac OS" name="Apple-DeviceRule98a7ae9a-dfd3-465c-aef2-dbdede86c2a3Check10bcd3ad-2724-456f-b304-bde523a5980d" operator="Contains" type="IP"/>
+<Check attributeName="User-Agent" attributeValue="Macintosh" description="IP User-Agent CONTAINS Macintosh" name="Apple-DeviceRule653d1494-cdf1-4b04-b1c3-a831ca5674dcCheck2bd3f451-4247-4269-82d5-af4f773736ef" operator="Contains" type="IP"/>
+<Check attributeName="dhcp-parameter-request-list" attributeValue="1, 121, 3, 6, 15, 119, 252, 95, 44, 46" description="DHCP dhcp-parameter-request-list EQUALS 1, 121, 3, 6, 15, 119, 252, 95, 44, 46" name="Apple-DeviceRule8d1992b1-c2a8-4aa2-9107-2c396347506aCheck623e2e13-dfc9-491c-b609-e3954ec0bc47" operator="Equals" type="DHCP"/>
+</Checks>
+<Actions/>
+<ScanActions>
+<ScanAction allPorts="false" description="Perform operating system detection." name="OS-scan" operatingSystem="true" serviceVersion="false" skipHostDiscovery="false" smbDiscovery="false" snmpPorts="false">
+<CustomPort enable="false"/>
+</ScanAction>
+</ScanActions>
+</CPMProfilerPolicies>
